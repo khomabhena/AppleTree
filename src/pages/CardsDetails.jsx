@@ -5,6 +5,7 @@ import TextInputCCTwo from '../components/TextInputCCTwo'
 import Confirmation from '../components/Confirmation'
 import BottomLogos from '../components/BottomLogos'
 import PayButton from '../components/PayButton'
+import Spacer from '../components/Spacer'
 
 const CardsDetails = () => {
   return (
@@ -12,6 +13,7 @@ const CardsDetails = () => {
         <TextInput name={'Address'} />
         <TextInputCCTwo name2={'City'} name1={'Zip'} reverse={true} />
         <TextInputCCTwo name2={'Country'} name1={'Province'} reverse={true} />
+        <Spacer />
         <Confirmation />
         <BottomLogos />
         <PayButton location={'/data-collection'} name={'PAY NOW'} />

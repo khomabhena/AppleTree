@@ -4,12 +4,14 @@ import TextInput from '../components/TextInput'
 import Confirmation from '../components/Confirmation'
 import BottomLogos from '../components/BottomLogos'
 import PayButton from '../components/PayButton'
+import Spacer from '../components/Spacer'
 
 const BankAccount = () => {
   return (
     <Container name='Bank Transfer'>
         <p className=' text-start mt-4 mb-8'>Provide your bank account number and follow fund transfer instructions that will be shown to you to complete payment</p>
         <TextInput name={'Account Number'} />
+        <Spacer />
         <Confirmation />
         <BottomLogos />
         <PayButton location={'/data-collection'} name={'PAY NOW'} />
