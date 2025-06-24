@@ -17,7 +17,7 @@ const Container = ({children, name}) => {
             <img className=' mt-6' src="/appletree-logo.png" width="224px" alt="" />
         </div>
         <div className=' mt-4 mx-8 md:mx-12 pb-12'>
-            <p className=' bg-[#a0d900] mt-2 mb-4 py-3 font-bold text-xl shadow-xl rounded-2xl text-gray-900'>{name}</p>
+            <p className=' bg-[#a0d900] mt-2 mb-4 py-3 font-bold text-base shadow-xl rounded-2xl text-gray-900'>{name}</p>
             {children}
         </div>
     </div>
