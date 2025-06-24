@@ -3,14 +3,14 @@ import { NavLink } from 'react-router-dom'
 
 const Container = ({children, name}) => {
   return (
-    <div className=' w-sm md:w-md bg-gray-200 min-h-[600px] rounded-2xl shadow-2xl'>
+    <div className=' w-sm md:w-md bg-gray-200 min-h-[550px] rounded-2xl shadow-2xl'>
         <div className=' flex flex-row justify-between mx-2 md:mx-4'>
             <div className=''></div>
-            <NavLink to={'/'} className=' '>
+            <NavLink to={'/'} className=' mt-3 mr-1'>
                 <img src="/ax.svg" width="50px" height="auto" alt="" /> 
             </NavLink>
         </div>
-        <div className=' flex flex-row justify-between mx-2 md:mx-4'>
+        <div className=' flex flex-row justify-between mx-2 mr-3 md:mx-4'>
             <p></p>
             <p className=' text-xs'>Timeout = <span className=' font-bold text-xs'>4:27</span></p>
         </div>
