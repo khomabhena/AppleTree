@@ -8,9 +8,9 @@ import PayButton from '../components/PayButton'
 const MobileMoney = () => {
   return (
     <Container name={'Mobile Money'}>
-        <ButtonMobileMoney image={'/public/ecocash.svg'} name={'EcoCash'} />
-        <ButtonMobileMoney image={'/public/one-money.svg'} name={'One Money'} />
-        <ButtonMobileMoney image={'/public/telecash.svg'} name={'Telecash'} />
+        <ButtonMobileMoney image={'/ecocash.svg'} name={'EcoCash'} />
+        <ButtonMobileMoney image={'/one-money.svg'} name={'One Money'} />
+        <ButtonMobileMoney image={'/telecash.svg'} name={'Telecash'} />
         <Confirmation />
         <BottomLogos />
         <PayButton location={'/data-collection'} name={'PAY NOW!'} />

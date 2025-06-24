@@ -8,8 +8,8 @@ import PayButton from '../components/PayButton'
 const EWallet = () => {
   return (
     <Container name={'E-Wallet'}>
-        <ButtonMobileMoney location={'/'} image={'/public/innbucks.svg'} name={'InnBucks'} />
-        <ButtonMobileMoney location={'/'} image={'/public/paydunya.svg'} name={'PayDunya'} />
+        <ButtonMobileMoney location={'/'} image={'/innbucks.svg'} name={'InnBucks'} />
+        <ButtonMobileMoney location={'/'} image={'/paydunya.svg'} name={'PayDunya'} />
         <Confirmation />
         <BottomLogos />
         <PayButton location={'/data-collection'} name={'PAY NOW!'} />
