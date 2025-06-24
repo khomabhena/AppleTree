@@ -13,7 +13,7 @@ const Details = () => {
 
 
   return (
-      <Container name={'Your Details'}>
+      <Container name={'Your Details'} noButton={true}>
         <TextInput name="Name" />
         <TextInput name="Last Name" />
         <TextInput name="Country" />
