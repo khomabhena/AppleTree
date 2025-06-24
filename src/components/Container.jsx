@@ -8,7 +8,9 @@ const Container = ({children, name, noButton}) => {
     <div className=' w-sm md:w-md bg-gray-200 min-h-[550px] rounded-2xl shadow-2xl'>
         <div className=' flex flex-row justify-between mx-2 md:mx-4'>
             <div className={noButton ? ' invisible' : ' flex mt-2 ml-3 px-2 py-1 cursor-pointer'}>
-                <span onClick={() => navigate(-1)} class="material-symbols-outlined">arrow_back_ios</span>
+                <span onClick={() => navigate(-1)} class="material-symbols-outlined">
+                    <img className=' size-8' src="/back-black.svg" alt="" />
+                </span>
             </div>
             <NavLink to={'/'} className=' mt-3 mr-1'>
                 <img src="/ax.svg" width="50px" height="auto" alt="" /> 
