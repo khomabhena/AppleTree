@@ -11,7 +11,7 @@ const PayButton = ({location, name}) => {
         <p className=' text-2xl font-medium'>$45.00</p>
         <p className=' text-xs text-gray-500'>View Details</p>
       </div>
-      <NavLink to={location} className=' cursor-pointer bg-[#a0d900] px-4 min-w-[200px] mb-4 py-3 font-bold text-xl shadow-2xl border border-gray-300 rounded-2xl text-gray-900' type="button">{name}</NavLink>
+      <NavLink to={location} className=' cursor-pointer bg-[#a0d900] px-4 min-w-[200px] mb-4 py-3 font-bold text-base md:text-xl shadow-2xl border border-gray-300 rounded-2xl text-gray-900' type="button">{name}</NavLink>
     </div> 
   )
 }
