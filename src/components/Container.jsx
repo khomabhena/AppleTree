@@ -2,7 +2,7 @@ import React from 'react'
 
 const Container = ({children, name}) => {
   return (
-    <div className=' w-lg bg-gray-200 min-h-[700px] rounded-2xl shadow-2xl'>
+    <div className=' w-sm md:w-md bg-gray-200 min-h-[600px] rounded-2xl shadow-2xl'>
         <div className=' flex flex-row justify-between mx-4'>
             <div className=''></div>
             <div className=''>
