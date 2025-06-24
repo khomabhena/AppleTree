@@ -9,7 +9,7 @@ const TransActionStatus = () => {
   return (
     <Container name={'Transaction Status'}>
         <div className=' mt-8 flex justify-center'>
-            <img src="/public/checkbox.svg" width={'70px'} height={'auto'} alt="" />
+            <img src="/checkbox.svg" width={'70px'} height={'auto'} alt="" />
         </div>
         <p className=' text-2xl font-medium mt-4'>Transaction Successful</p>
         <TextInputCCTwo name2={'Tracking ID'} name1={'41298905'} reverse={true} />

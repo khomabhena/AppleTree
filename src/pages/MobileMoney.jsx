@@ -9,9 +9,9 @@ import Spacer from '../components/Spacer'
 const MobileMoney = () => {
   return (
     <Container name={'Mobile Money'}>
-        <ButtonMobileMoney image={'/ecocash.svg'} name={'EcoCash'} />
-        <ButtonMobileMoney image={'/one-money.svg'} name={'One Money'} />
-        <ButtonMobileMoney image={'/telecash.svg'} name={'Telecash'} />
+        <ButtonMobileMoney location={'/data-collection'} image={'/ecocash.svg'} name={'EcoCash'} />
+        <ButtonMobileMoney location={'/data-collection'} image={'/one-money.svg'} name={'One Money'} />
+        <ButtonMobileMoney location={'/data-collection'} image={'/telecash.svg'} name={'Telecash'} />
         <div className=' h-8'></div>
         <Confirmation />
         <BottomLogos />
